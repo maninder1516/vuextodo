@@ -1,4 +1,3 @@
-//import { createApp } from 'vue';
 import { createStore } from 'vuex';
 import todos from './modules/todos'
 
@@ -9,7 +8,5 @@ const store = createStore({
     }
 });
 
-//const app = createApp({});
-//app.use(store);
-
+// Export the Store
 export default store;
